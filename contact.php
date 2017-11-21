@@ -66,7 +66,7 @@ if( isset($_POST['tel']) && isset($_POST['email']) ){
 
 	// Envoi du mail
 
-	$mail_destinataire = "maxime.galabert@gmail.com";
+	$mail_destinataire = "info@bulko.net";
 
 	//=====Vérification de l'adresse de destination.
 	if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail_destinataire)) $passage_ligne = "\r\n"; else $passage_ligne = "\n";
