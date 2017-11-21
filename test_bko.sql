@@ -30,8 +30,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `message` (
   `id` int(11) NOT NULL,
-  `nom` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
-  `email` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `nom` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `tel` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `message` text COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
